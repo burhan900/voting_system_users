@@ -38,7 +38,7 @@
       <div class="loading-overlay" v-if="loading">
         <md-progress-spinner md-mode="indeterminate" :md-stroke="2"></md-progress-spinner>
       </div>
-
+    <router-link :to="{name: 'Register'}">SignUp</router-link>
     </md-content>
     <div class="background" />
   </div>
